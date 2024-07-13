@@ -1,20 +1,20 @@
-const  body = document.getElementsByTagName("body")[0]
+const body = document.getElementsByTagName("body")[0];
 // body.style.backgroundColor= "red"
 
-function setColor(name){
-    body.style.backgroundColor = name;
+function setColor(name) {
+  body.style.backgroundColor = name;
 }
 
 // setColor("green")
 
-function randomColor(){
-    const red = Math.round(Math.random() * 255)
-    const green = Math.round(Math.random() * 255)
-    const blue = Math.round(Math.random() * 255)
+function randomColor() {
+  const red = Math.round(Math.random() * 255);
+  const green = Math.round(Math.random() * 255);
+  const blue = Math.round(Math.random() * 255);
 
-    const color = `rgb(${red},${green},${blue})`
+  const color = `rgb(${red},${green},${blue})`;
 
-    body.style.backgroundColor= color
+  body.style.backgroundColor = color;
 }
 
 // randomColor()
